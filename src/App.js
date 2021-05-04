@@ -5,10 +5,12 @@ import Hotels from './components/Hotels/Hotels';
 
 function App() {
   return (
+    <div>
     <div className="App">
       <Header/>
       <Menu/>
       <Hotels/>
+    </div>
     </div>
   );
 }
